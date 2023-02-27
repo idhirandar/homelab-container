@@ -1,0 +1,12 @@
+---
+version: "2"
+services:
+  homer:
+    image: b4bz/homer
+    container_name: homer
+    volumes:
+      - /home/rocky/all-container-data/homer/:/www/assets
+    ports:
+      - 9090:8080
+    environment:
+      - INIT_ASSETS=1 # default
