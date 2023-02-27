@@ -25,3 +25,9 @@ $ sudo systemctl --now enable docker
 - On Debian [script](https://gist.github.com/angristan/389ad925b61c663153e6f582f7ef370e)
 - On Ubuntu [script](https://github.com/docker/docker-install)
 
+# Docker containers management with cli or GUi
+
+To manage docker container application we have multiple ways :-
+
+- Cli base 'docker-cli'
+- Web UI   'portainer'
