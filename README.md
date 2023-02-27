@@ -30,5 +30,8 @@ $ sudo systemctl --now enable docker
 To manage docker container application we have multiple ways :-
 
 - Cli base [docker-cli](https://docs.docker.com/engine/reference/commandline/cli/)
-- Web UI   [portainer](https://docs.portainer.io/)
+```console
+if you know how to use docker-cli and manage everything with docker-cli you should't be on this repo
+```
 
+- Web UI   [portainer](https://docs.portainer.io/)
