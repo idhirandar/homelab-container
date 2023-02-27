@@ -20,7 +20,7 @@ sudo dnf -y install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 sudo systemctl --now enable docker
 ```
 
-** For other distros follow below links**
+**For other distros follow below links**
 
 On Debian [script](https://gist.github.com/angristan/389ad925b61c663153e6f582f7ef370e)
 
