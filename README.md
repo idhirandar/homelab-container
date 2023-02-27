@@ -11,7 +11,7 @@ In my homelab enviroment [Rocky Linux](https://rockylinux.org/about/#:~:text=It'
 
 Follow This instruction according to your linux distro
 
-####On Rockylinux [script](https://gist.github.com/ryanmaclean/91b270d858939729443f889760b4d72f)
+#### On Rockylinux [script](https://gist.github.com/ryanmaclean/91b270d858939729443f889760b4d72f)
 
 ```console
 sudo dnf update && sudo apt upgrade -y 
