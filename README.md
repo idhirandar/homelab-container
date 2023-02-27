@@ -40,3 +40,13 @@ portainer is a lightweight web UI which allows to manage docker application
 ```
 
 ![alt text](https://github.com/idhirandar/homelab-container/raw/main/app-screenshot/portainer.png)
+
+
+## List of all software 
+
+
+|Se. No| **Name** |  **Discriptions** | **Link** |
+|---|---|---|---|
+1| portainer | container mgmt UI | [Github](https://github.com/portainer/portainer) |
+2| homer dashboard | static dashboard | [Github](https://github.com/bastienwirtz/homer) |
+3| MariaDB | database server | [Github](https://github.com/MariaDB/mariadb-docker) |
