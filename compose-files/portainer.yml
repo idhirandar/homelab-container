@@ -12,4 +12,4 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro
       - /home/rocky/all-container-data/portainer/:/data
     ports:
-      - 9000:9000
+      - 9443:9000
