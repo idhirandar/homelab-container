@@ -45,10 +45,10 @@ portainer is a lightweight web UI which allows to manage docker application
 ## List of all software 
 
 
-|Se. No| **Name** |  **Discriptions** | **Link** |
-| :---: | --- | --- | :---: |
-1| portainer | container mgmt UI | [Github](https://github.com/portainer/portainer) |
-2| homer dashboard | static dashboard | [Github](https://github.com/bastienwirtz/homer) |
-3| MariaDB | database server | [Github](https://github.com/MariaDB/mariadb-docker) |
-4| PhpMyAdmin | web gui for database server managment | [Github](https://github.com/phpmyadmin/docker) |
-5| pihole | DNS sinkhole (ad-blocker) | [Github](https://github.com/pi-hole/pi-hole) |
+|Se. No| **Name** |  **Discriptions** | **Compose File** | **Offecial Doc**
+| :---: | --- | --- | :---: | :---: |
+1| portainer | container mgmt UI | [Compose file](https://github.com/idhirandar/homelab-container/blob/main/compose-files/portainer.yml) | [Github](https://github.com/portainer/portainer) |
+2| homer dashboard | static dashboard | [Compose file](https://github.com/idhirandar/homelab-container/blob/main/compose-files/homer-dashboard.yml) | [Github](https://github.com/bastienwirtz/homer) |
+3| MariaDB | database server | [Compose file](https://github.com/idhirandar/homelab-container/blob/main/compose-files/mariadb.yml) | [Github](https://github.com/MariaDB/mariadb-docker) |
+4| PhpMyAdmin | web gui for database server managment | [Compose file](https://github.com/idhirandar/homelab-container/blob/main/compose-files/phpMyAdmin.yml) | [Github](https://github.com/phpmyadmin/docker) |
+5| pihole | DNS sinkhole (ad-blocker) | - | [Github](https://github.com/pi-hole/pi-hole) |
