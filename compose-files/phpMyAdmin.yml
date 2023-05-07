@@ -1,0 +1,12 @@
+version: '3'
+services:
+  phpMyAdmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpMyAdmin
+    environment:
+      PMA_ARBITRARY: 1 # enable for allow to enter remote database server information at start
+    restart: always
+    ports:
+      - 8081:80
+    volumes:
+      - /home/rocky/all-container-data/phpMyAdmin:/var/lib/mysql
