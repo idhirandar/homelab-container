@@ -13,11 +13,11 @@ Follow This instruction according to your linux distro
 
 #### On Rockylinux [script](https://gist.github.com/ryanmaclean/91b270d858939729443f889760b4d72f)
 
-```console
-$ sudo dnf update && sudo apt upgrade -y 
-$ sudo dnf config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
-$ sudo dnf -y install docker-ce docker-ce-cli containerd.io docker-compose-plugin
-$ sudo systemctl --now enable docker
+```shell
+sudo dnf update && sudo apt upgrade -y 
+sudo dnf config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+sudo dnf -y install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+sudo systemctl --now enable docker
 ```
 
 #### For other distros follow below links
