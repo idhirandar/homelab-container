@@ -1,0 +1,21 @@
+version: "3"
+services:
+  lychee:
+    image: lscr.io/linuxserver/lychee:latest
+    container_name: lychee
+    restart: always
+    volumes:
+      - /home/rocky/all-container-data/lychee/config/:/config
+      - /home/rocky/all-container-data/lychee/pictures/:/pictures
+    environment:
+      - DB_CONNECTION=mariadb
+      - DB_HOST=mariadb
+      - DB_PORT=3306
+      - DB_USERNAME=lychee
+      - DB_PASSWORD=lychee
+      - DB_DATABASE=lychee
+      - PGID=1000
+      - PUID=1000
+      - TZ=Asia/Kolkata
+    ports:
+      - 80:80
