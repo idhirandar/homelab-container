@@ -47,6 +47,19 @@ docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /va
 
 ![alt text](https://github.com/idhirandar/homelab-container/raw/main/app-screenshot/portainer.png)
 
+## All done !
+Now all the complicated task has been completed we can go further and choose whichever application we need from the below software list. 
+
+## Application Deployment
+Follow this steps after selection of software
+ 1. click on compose file link 
+ 2. copy the code 
+ 3. open portainer in your web browser 
+ 4. got to the stack section 
+ 5. name your stack(application name) 
+ 6. paste the copied code below.   
+
+
 
 ## List of all software 
 
