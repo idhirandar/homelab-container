@@ -39,6 +39,12 @@ if you know how to use docker-cli and manage everything with docker-cli you shou
 portainer is a lightweight web UI which allows to manage docker application
 ```
 
+## Easy Portainer installed with one command line string 
+This is the simplest way to manage docker just paste this line after distro selection.
+```bash
+docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v /home/rocky/all-container-data/portainer:/data portainer/portainer-ce:latest
+```
+
 ![alt text](https://github.com/idhirandar/homelab-container/raw/main/app-screenshot/portainer.png)
 
 
